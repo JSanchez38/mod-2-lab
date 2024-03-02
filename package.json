@@ -1,0 +1,23 @@
+{
+  "name": "mod-2-lab",
+  "version": "1.0.0",
+  "description": "En este laboratorio repasaremos los conceptos principales del módulo 2: \r -\tCreación de un proyecto Express desde 0\r -\tPlantillas de HBS\r - Modelos de Mongoose\r -\tRegistro/Login de usuarios\r - Securización de rutas\r - Relaciones entre modelos\r -\tCRUDs\r -\tFormularios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon -e js,css,hbs, env app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
